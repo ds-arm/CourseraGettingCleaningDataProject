@@ -34,12 +34,7 @@ variables.
 
 Step 5 of the project requires generation of a dataset with the mean for each 
 variable aggregated (grouped) by activity and subject.  This file contains 
-this dataset, in tidy form.  An extract is shown below containing the first 10 
-rows and first four columns:  
-
-```{r echo=FALSE}
-head(read.table('./DataCleaningProject_step5_output.txt', header=TRUE)[,1:4], n=10)
-```
+this dataset, in tidy form.  
 
 To load and View the full dataset into R, use:  
 `data <- read.table('./DataCleaningProject_step5_output.txt', header = TRUE)`  
